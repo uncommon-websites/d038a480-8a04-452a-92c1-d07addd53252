@@ -10,12 +10,20 @@
 </script>
 
 <Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+	centered={true}
+	title="AI infrastructure for developers who build products, not models"
+	subtitle="Integrate advanced machine learning and natural language processing into your applications without specialized ML talent. Start shipping intelligent features in minutes, not months."
+	imageSrc="/generated/image-observational-documentary-style-image-of.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by innovative tech companies"
+	logoUrls={[
+		'https://cdn.brandfetch.io/stripe.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/shopify.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/vercel.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/notion.so/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
